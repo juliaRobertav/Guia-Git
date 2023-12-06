@@ -2,6 +2,8 @@
 description: Alguns comandos que ajudaram - Erro de Remote Origin
 ---
 
+https://www.atlassian.com/br/git/glossary#commands
+
 # Comandos - Erros
 
 As vezes queremos atualizar ou adicionar um controle remoto a um repositório Git, mas esse controle remoto já existe. Isso geralmente acontece quando alguém já configurou o controle remoto "origin" anteriormente e acaba dando erro como este:
