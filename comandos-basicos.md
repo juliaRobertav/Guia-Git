@@ -4,7 +4,7 @@ description: Lista de comandos básicos e como usar...
 
 # Comandos Básicos
 
-
+{% embed url="https://www.atlassian.com/br/git/glossary#commands" %}
 
 ### Criando Repositório
 
