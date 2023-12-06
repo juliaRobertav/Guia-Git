@@ -2,7 +2,6 @@
 description: Alguns comandos que ajudaram - Erro de Remote Origin
 ---
 
-https://www.atlassian.com/br/git/glossary#commands
 
 # Comandos - Erros
 
