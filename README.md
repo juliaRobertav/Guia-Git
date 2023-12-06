@@ -1,5 +1,5 @@
 ---
-description: Alguns comandos que ajudaram...
+description: Alguns comandos que ajudaram - Erro de Remote Origin
 ---
 
 # Comandos - Erros
