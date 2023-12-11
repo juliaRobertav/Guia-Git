@@ -2,8 +2,9 @@
 description: Alguns comandos que ajudaram - Erro de Remote Origin
 ---
 
-
 # Comandos - Erros
+
+### <mark style="color:orange;">Adiconar controle remoto a um repo ja existente</mark>
 
 As vezes queremos atualizar ou adicionar um controle remoto a um repositório Git, mas esse controle remoto já existe. Isso geralmente acontece quando alguém já configurou o controle remoto "origin" anteriormente e acaba dando erro como este:
 
@@ -40,6 +41,8 @@ git push origin branch_name
 
 
 
+### <mark style="color:orange;">Erro refusing to merge unrelated histories</mark>
+
 Outro erro que pode acontecer é o "refusing to merge unrelated histories" ocorre quando você está tentando mesclar duas histórias (histórias de commit) que não têm um ancestral comum. Isso pode acontecer quando você inicializa um repositório localmente e, em seguida, tenta puxar do repositório remoto, que tem uma linha do tempo de commits diferente.
 
 Se você estiver enfrentando esse problema e estiver certo de que deseja unir as histórias, você pode forçar a mesclagem usando a opção `--allow-unrelated-histories`. Aqui está como você pode fazer isso:
@@ -49,8 +52,6 @@ git pull origin main --allow-unrelated-histories
 ```
 
 Este comando permitirá que o Git una as histórias mesmo que elas sejam consideradas não relacionadas. Após isso, você pode continuar com os comandos usuais para adicionar, commitar e empurrar as alterações.
-
-
 
 Além disso mais um erro é quando há alterações no repositório remoto que você não possui localmente. É importante garantir que seu repositório local esteja atualizado antes de tentar fazer um push.
 
@@ -68,7 +69,9 @@ git push origin main
 
 
 
-Também pode ocorrer casos de querer trocar a main ou o repo que irá adicionar seus arquivos, no meu caso, eu queria trocar o repo, então fiz com este passo a passo:
+### <mark style="color:orange;">Trocar a branch ou o repo</mark>&#x20;
+
+Também pode ocorrer casos de querer trocar a main (branch) ou o repo que irá adicionar seus arquivos, no meu caso, eu queria trocar o repo, então fiz com este passo a passo:
 
 * **Certifique-se de ter um backup:** Antes de fazer grandes alterações, é sempre uma boa ideia ter um backup dos seus dados importantes.
 * **Crie uma nova branch:** Se você estiver na branch `main`, pode criar uma nova branch para trabalhar no seu projeto. Isso permitirá que você mantenha a `main` intacta enquanto trabalha na sua nova branch. Use o comando:
@@ -109,8 +112,6 @@ git remote remove origin
 ```
 
 Depois disso, você pode trabalhar na nova branch sem afetar a `main` no repositório original.
-
-
 
 Erro quando se executa o comando `git remote add origin` mais de uma vez:
 
