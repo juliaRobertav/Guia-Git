@@ -10,7 +10,7 @@ description: Lista de comandos básicos e como usar...
 
 Quando criamos um repositório no GitHub geralmente aparece um código para enviar os arquivos para esse repo:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Exemplo</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Exemplo</p></figcaption></figure>
 
 Nessa página, irei explicar sobre esses comandos e como ir atualizando depois de ja ter dado o primeiro commit.
 
