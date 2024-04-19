@@ -10,3 +10,4 @@
 * [O que é](o-que-e.md)
 * [Dicas](dicas.md)
 * [GIT + GitHub](git-+-github.md)
+* [Branch](branch.md)
