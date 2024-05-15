@@ -13,3 +13,5 @@ description: Dicas, documentações e sites para você entender melhor!
 {% embed url="https://www.dio.me/articles/a-importancia-do-git-e-github" %}
 
 {% embed url="https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-parte-1" %}
+
+{% embed url="https://www.varonis.com/pt-br/blog/git-branching" %}
